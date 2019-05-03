@@ -2,7 +2,7 @@ FROM node:alpine
 
 WORKDIR /app
 
-RUN CI=true
+ENV CI=true
 
 COPY package.json .
 RUN npm install
