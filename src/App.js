@@ -8,16 +8,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <h1>Learning Docker With :</h1>
+          <ul>
+            <li>React Js</li>
+            <li>Nginx</li>
+            <li>GitHub</li>
+            <li>Travis CI</li>
+            <li>AWS Elasticbeanstalk</li>
+          </ul>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React (Docker Compose Updated for production)
-        </a>
       </header>
     </div>
   );
