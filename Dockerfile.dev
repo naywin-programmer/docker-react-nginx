@@ -2,8 +2,10 @@ FROM node:alpine
 
 WORKDIR /app
 
+RUN CI=true
+
 COPY package.json .
 RUN npm install
 COPY . .
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "start"]
